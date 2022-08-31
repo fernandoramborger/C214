@@ -1,4 +1,4 @@
-var Pessoa = {
+let Pessoa = {
     nome: 'João',
     idade: 20,
     sexo: 'Masculino',
@@ -10,7 +10,7 @@ Pessoa.nome = 'José';
 
 console.log(Pessoa);
 
-var mapa = {
+let mapa = {
     cantoSuperiorEsquerdo : { x : 1, y : 1 },
     cantoSuperiorDireito : { x : 10, y : 1 },
     cantoInferiorEsquerdo : { x : 1, y : 10 },
